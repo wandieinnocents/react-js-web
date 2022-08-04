@@ -1,0 +1,27 @@
+.header{
+    position: fixed;
+    height: 98px;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 1;
+    transform: .3s ease-in;
+    overflow: hidden;
+
+
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 124px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1em;
+}
+
+.header .navbar img {
+    width: 250px;
+    height: auto;
+}
